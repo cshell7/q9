@@ -1,0 +1,30 @@
+.logo-bug--float {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  color: #21201E;
+  font-size: 32px;
+  z-index: 11;
+  &:hover {
+    text-decoration: none;
+    color: #21201E;
+    cursor: pointer;
+  }
+}
+.header--float {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #21201E;
+  height: 60px;
+  width: 100vw;
+  z-index: 10;
+}
+
+.-hero-bg {
+  background-color: rgba(206, 206, 206, 0.46);
+}
